@@ -1,0 +1,66 @@
+
+* {
+    font-family: 'Francois One', sans-serif;
+}
+
+html {
+	height: 100%;
+  }
+
+body {
+    background: no-repeat url(wallpaper-dbz.png);
+    background-size: cover;
+    color: white;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5em;
+	background-color: #9e9898;
+	text-align: center;
+	position: relative;
+  }
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.en-tete {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: center;
+    left: 0;
+    width:100%;
+    height: 80px;
+    background-color: #e65c00;
+    align-items: center;
+    border-radius: 9px;
+    font-family: 'Francois One', sans-serif;
+}
+a {
+    color: white;
+}
+form {
+    text-align: center;
+    margin-top: 4%;
+}
+.espacecommentaire {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+	position:absolute;
+    bottom:0;
+    width:100%;
+	color: white;
+}
