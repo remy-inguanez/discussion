@@ -137,13 +137,12 @@ if(!empty($_POST['inscription']))
 }
 	
 ?>
-		<input type="text" required placeholder="Login" name="login">
-		<input type="password" required placeholder="Password (5 caractères minimum)"  name="password">
-		<input type="password" required placeholder="Confirm Password"  name="passwordagain">
-		<input type="submit" value="Inscription" name="inscription">
+		<p>Login:</p><input type="text" required placeholder="Login" name="login"></br>
+		<p>Password:</p><input type="password" required placeholder="Password (5 caractères minimum)"  name="password"></br>
+		<p>Confirm Password:</p><input type="password" required placeholder="Confirm Password"  name="passwordagain"></br></br>
+		<input type="submit" value="Inscription" name="inscription"></br></br>
 		<input type="reset" value="Effacer" name="reset">
 	</form>
-
 
 </article>
 
@@ -151,7 +150,7 @@ if(!empty($_POST['inscription']))
 
 <p class="page">
 Discussion &emsp;
-Remy.I ©  &emsp;  2020  &emsp; Tous droits réservés.  
+Remy.I  Adam.T ©  &emsp; 2020  &emsp; Tous droits réservés.  
 </p>
 
 </footer>
