@@ -143,7 +143,7 @@ else if ($modif==false)
 
 <p class="page">
 Discussion &emsp;
-Remy.I ©  &emsp;  2020  &emsp; Tous droits réservés.  
+Remy.I  Adam.T Jeremy.B ©  &emsp; 2020  &emsp; Tous droits réservés.  
 </p>
 
 </footer>

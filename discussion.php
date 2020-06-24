@@ -38,7 +38,7 @@ if((isset($_SESSION['login']))&&(isset($_SESSION['password'])))
 
 <header>	
 	<ul class="ul2">
-		<li><a href="index.php">Accueil</a></li>
+</br><a href="index.php">Accueil</a>
 
 <div class="boutondeco">
 <form class="déconnexion" method="post" action="discussion.php">
@@ -193,7 +193,7 @@ mysqli_close($db);
 
 <p class="page">
 Discussion &emsp;
-Remy.I ©  &emsp;  2020  &emsp; Tous droits réservés.  
+Remy.I  Adam.T Jeremy.B ©  &emsp; 2020  &emsp; Tous droits réservés.  
 </p>
 
 </footer>

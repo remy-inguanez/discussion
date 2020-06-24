@@ -13,7 +13,7 @@ $result= mysqli_query($base,$req);
 $row= mysqli_fetch_array($result);
 
 
-  if(password_verify($_POST['password'],$row['password']))
+if(password_verify($_POST['password'],$row['password']))
   {
     session_start();
       echo 'Vous êtes connecté ', $user . ' !';
@@ -25,6 +25,7 @@ $row= mysqli_fetch_array($result);
   {
     echo 'Login ou password incorrect';
   }
+
 }
 
 ?>
@@ -40,15 +41,15 @@ $row= mysqli_fetch_array($result);
   <link rel="icon" href="goku-nuage.png"/>
 </head>
 
-  <body>
+<body>
 
-  <h1> Connexion </h1>
+<h1> Connexion </h1>
 
-    <div class="en-tete">
+<div class="en-tete">
 <a href="index.php">Accueil</a> <a href="inscription.php">Inscription</a> <a href="connexion.php">Connexion</a> <a href="profil.php">Modifier profil</a> <a href="discussion.php">Discussion</a>
 </div>
      
-        <section id="adam">
+<section id="adam">
 <div class="dispositon">
 <form class="form1" action="" method="post">
 <p>Login:</p> <input  required type="text" name="login">
@@ -61,7 +62,7 @@ $row= mysqli_fetch_array($result);
 
 <p class="page">
 Discussion &emsp;
-Remy.I ©  &emsp;  2020  &emsp; Tous droits réservés.  
+Remy.I  Adam.T Jeremy.B ©  &emsp; 2020  &emsp; Tous droits réservés.  
 </p>
 
 </footer>
