@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 23 juin 2020 à 08:21
+-- Généré le :  jeu. 25 juin 2020 à 08:22
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -36,14 +36,6 @@ CREATE TABLE IF NOT EXISTS `messages` (
   `date` date NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
-
---
--- Déchargement des données de la table `messages`
---
-
-INSERT INTO `messages` (`id`, `message`, `id_utilisateur`, `date`) VALUES
-(9, 'y', 6, '2020-06-23'),
-(6, 'heyy', 4, '2020-06-11');
 
 -- --------------------------------------------------------
 
